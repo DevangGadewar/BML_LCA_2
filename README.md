@@ -1,1 +1,2 @@
 # BML_LCA_2
+K-means (k=2) applied to the UCI Adult dataset achieved 75.92% accuracy after mapping clusters to majority class labels. However, the low silhouette score (0.137) indicates weak intrinsic cluster separation — the clusters are not naturally well-defined in the feature space, meaning the accuracy benefits from post-hoc label alignment rather than genuinely distinct clustering structure. This illustrates a general limitation of using unsupervised clustering methods for what is fundamentally a supervised classification problem.
